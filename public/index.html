@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weathery</title>
+    <meta
+      name="description"
+      content="Weathery es una aplicación web para consultar el clima en tiempo real y obtener pronósticos meteorológicos de manera sencilla y rápida."
+    />
+    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="/styles/sec1.css" />
+    <script type="module" src="/app.js" defer></script>
+  </head>
+  <body>
+    <section class="searchbar-container">
+      <input type="text" id="search-input" placeholder="Buscar ciudad..." />
+      <button type="submit" id="search-button">Search</button>
+    </section>
+    <section id="sec-1">
+      <header>
+        <div id="header-left-sec">
+          <h2 id="city"></h2>
+          <p id="country"></p>
+          <p id="coordinates">
+            Lat: <span id="latitude"></span>, Lon: <span id="longitude"></span>
+          </p>
+        </div>
+        <div id="header-right-sec">
+          <img
+            src="/logo-weathery.png"
+            alt="Icono de temperatura"
+            id="weather-icon"
+          />
+          <p id="weather-description">description</p>
+        </div>
+      </header>
+    </section>
+    <section id="sec-2"></section>
+    <section id="sec-3"></section>
+    <section id="sec-3"></section>
+  </body>
+</html>

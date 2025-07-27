@@ -1,0 +1,38 @@
+#sec-1 {
+  height: 400px;
+}
+
+#sec-1 header {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+#header-left-sec,
+#header-right-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-left-sec {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#header-right-sec {
+  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-icon {
+  height: 100px;
+  width: 100px;
+}
